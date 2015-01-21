@@ -16,6 +16,7 @@
 ## Example
 
     $ sha1dir . -name '*.txt'
+    e73bfbe0f7aee880b6b75e9a21840dc666752b7a
 
 ## License
 
