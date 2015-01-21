@@ -1,0 +1,16 @@
+#!/bin/bash
+
+if [ -z "$1" ]; then
+  echo "usage: sha1dir <dir> [extra find options]"
+  exit 1
+fi
+
+DIR="$1"
+
+shift
+
+justsum() { 
+  cut -d" " -f1 
+}
+
+find "$DIR" $@ -type f -print0 | xargs -0 sha1sum | justsum | sort | sha1sum | justsum
