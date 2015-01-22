@@ -7,7 +7,7 @@
 
   Install with [ghi](https://github.com/stephenmathieson/ghi)
 
-    $ ghi install jb55/sha1dir
+    $ ghi jb55/sha1dir
 
 ## Usage
 
