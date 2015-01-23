@@ -1,6 +1,6 @@
 {
   "name": "sha1dir",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Get the sha1 of a directory",
   "scripts": [ "sha1dir.sh" ],
   "install": "make install"
