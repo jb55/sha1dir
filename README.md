@@ -15,7 +15,19 @@
 
 ## Usage
 
+  Command line:
+
     sha1dir <dir> [extra find options]
+
+  As a library:
+
+    $ bpkg install sha1dir
+
+```bash
+source ./deps/sha1dir/sha1dir.sh
+
+hash=$(sha1dir "./mydir")
+```
 
 ## Example
 
