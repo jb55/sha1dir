@@ -7,7 +7,11 @@
 
   Install with [ghi](https://github.com/stephenmathieson/ghi)
 
-    $ ghi jb55/sha1dir
+    $ ghi bpkg/sha1dir
+
+  Install with [bpkg](https://github.com/bpkg/bpkg)
+
+    $ bpkg install sha1dir -g
 
 ## Usage
 
